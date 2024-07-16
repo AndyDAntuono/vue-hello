@@ -5,7 +5,11 @@ const { createApp } = Vue;
 createApp ({
     data () {
         return {
-            message: 'Hello World By Vue!'
+            message: 'Hello World By Vue!',
+            bonus: {
+                img: "https://picsum.photos/200/300",
+                name: "Lorem picsum",
+            }
         }
     }
 }).mount('#app');
